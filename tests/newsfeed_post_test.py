@@ -6,7 +6,7 @@ from base.base_test import BaseTest
 
 
 @allure.feature("Newsfeed Functionality")
-class TestBuzzFeature(BaseTest):
+class TestNewsfeedFeature(BaseTest):
     @allure.title("Newsfeed Newsfeed")
     @allure.severity("Normal")
     @pytest.mark.smoke
