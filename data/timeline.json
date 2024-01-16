@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "373f3954fac4",
+    "name" : "3c2c6d4ead28",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Newsfeed Newsfeed",
-        "uid" : "319d12a36e702768",
-        "parentUid" : "d91d566180dd213e64ce8d83b89d775f",
-        "status" : "broken",
+        "name" : "Change profile name",
+        "uid" : "aa72a4a9e564a24c",
+        "parentUid" : "9e9c87e45972da075a7c98d6aec0eea6",
+        "status" : "passed",
         "time" : {
-          "start" : 1705438609529,
-          "stop" : 1705438609529,
-          "duration" : 0
+          "start" : 1705438761833,
+          "stop" : 1705438771476,
+          "duration" : 9643
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Change profile name",
-        "uid" : "51bba3994c860043",
-        "parentUid" : "d91d566180dd213e64ce8d83b89d775f",
-        "status" : "broken",
+        "name" : "Newsfeed Newsfeed",
+        "uid" : "cab9e31bf216950e",
+        "parentUid" : "9e9c87e45972da075a7c98d6aec0eea6",
+        "status" : "passed",
         "time" : {
-          "start" : 1705438608734,
-          "stop" : 1705438608734,
-          "duration" : 0
+          "start" : 1705438772305,
+          "stop" : 1705438778506,
+          "duration" : 6201
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d91d566180dd213e64ce8d83b89d775f"
+      "uid" : "9e9c87e45972da075a7c98d6aec0eea6"
     } ],
-    "uid" : "06a92a731d131ed84ab925d41545a118"
+    "uid" : "e36dfea60493a8fbcb2fc4448c373f3c"
   } ],
   "name" : "timeline"
 }
