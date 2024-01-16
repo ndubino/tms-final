@@ -6,12 +6,12 @@
       "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/lib/chromium/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "a5d8d8a7eafec134",
+        "uid" : "51bba3994c860043",
         "parentUid" : "dd609d417114094a9d1f6e41079e7b60",
         "status" : "broken",
         "time" : {
-          "start" : 1705438396533,
-          "stop" : 1705438396533,
+          "start" : 1705438608734,
+          "stop" : 1705438608734,
           "duration" : 0
         },
         "flaky" : false,
@@ -19,12 +19,12 @@
         "parameters" : [ ]
       }, {
         "name" : "Newsfeed Newsfeed",
-        "uid" : "6e307eadbe3bd102",
+        "uid" : "319d12a36e702768",
         "parentUid" : "dd609d417114094a9d1f6e41079e7b60",
         "status" : "broken",
         "time" : {
-          "start" : 1705438397328,
-          "stop" : 1705438397328,
+          "start" : 1705438609529,
+          "stop" : 1705438609529,
           "duration" : 0
         },
         "flaky" : false,

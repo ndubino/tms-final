@@ -6,12 +6,12 @@
       "name" : "feature_profile_test",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "a5d8d8a7eafec134",
+        "uid" : "51bba3994c860043",
         "parentUid" : "06879556d81935b42ec1b990728e6479",
         "status" : "broken",
         "time" : {
-          "start" : 1705438396533,
-          "stop" : 1705438396533,
+          "start" : 1705438608734,
+          "stop" : 1705438608734,
           "duration" : 0
         },
         "flaky" : false,
@@ -23,12 +23,12 @@
       "name" : "newsfeed_post_test",
       "children" : [ {
         "name" : "Newsfeed Newsfeed",
-        "uid" : "6e307eadbe3bd102",
+        "uid" : "319d12a36e702768",
         "parentUid" : "badaece10e91e5152665d7e0ed3882c4",
         "status" : "broken",
         "time" : {
-          "start" : 1705438397328,
-          "stop" : 1705438397328,
+          "start" : 1705438609529,
+          "stop" : 1705438609529,
           "duration" : 0
         },
         "flaky" : false,
