@@ -29,12 +29,12 @@
       "total" : 2
     },
     "items" : [ {
-      "uid" : "cab9e31bf216950e",
+      "uid" : "cb7a946c30886e37",
       "status" : "passed",
       "time" : {
-        "start" : 1705438772305,
-        "stop" : 1705438778506,
-        "duration" : 6201
+        "start" : 1705438802694,
+        "stop" : 1705438808880,
+        "duration" : 6186
       }
     }, {
       "uid" : "319d12a36e702768",
@@ -57,12 +57,12 @@
       "total" : 8
     },
     "items" : [ {
-      "uid" : "aa72a4a9e564a24c",
+      "uid" : "e9e9737b9747ebfc",
       "status" : "passed",
       "time" : {
-        "start" : 1705438761833,
-        "stop" : 1705438771476,
-        "duration" : 9643
+        "start" : 1705438792263,
+        "stop" : 1705438801864,
+        "duration" : 9601
       }
     }, {
       "uid" : "51bba3994c860043",

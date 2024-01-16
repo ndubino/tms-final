@@ -4,13 +4,13 @@
     "name" : "Profile Functionality",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "aa72a4a9e564a24c",
+      "uid" : "e9e9737b9747ebfc",
       "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
       "status" : "passed",
       "time" : {
-        "start" : 1705438761833,
-        "stop" : 1705438771476,
-        "duration" : 9643
+        "start" : 1705438792263,
+        "stop" : 1705438801864,
+        "duration" : 9601
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
     "name" : "Newsfeed Functionality",
     "children" : [ {
       "name" : "Newsfeed Newsfeed",
-      "uid" : "cab9e31bf216950e",
+      "uid" : "cb7a946c30886e37",
       "parentUid" : "eb487edc247bc413686d15865563233f",
       "status" : "passed",
       "time" : {
-        "start" : 1705438772305,
-        "stop" : 1705438778506,
-        "duration" : 6201
+        "start" : 1705438802694,
+        "stop" : 1705438808880,
+        "duration" : 6186
       },
       "flaky" : false,
       "newFailed" : false,

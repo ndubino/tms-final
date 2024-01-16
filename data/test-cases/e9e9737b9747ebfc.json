@@ -1,12 +1,12 @@
 {
-  "uid" : "cab9e31bf216950e",
-  "name" : "Newsfeed Newsfeed",
-  "fullName" : "tests.newsfeed_post_test.TestNewsfeedFeature#test_make_a_post",
-  "historyId" : "7f25ffea984cc43d816cfdfdb2b65ec1",
+  "uid" : "e9e9737b9747ebfc",
+  "name" : "Change profile name",
+  "fullName" : "tests.feature_profile_test.TestProfileFeature#test_change_profile_name",
+  "historyId" : "42b4a115007c35c622675a0baedb491a",
   "time" : {
-    "start" : 1705438772305,
-    "stop" : 1705438778506,
-    "duration" : 6201
+    "start" : 1705438792263,
+    "stop" : 1705438801864,
+    "duration" : 9601
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,32 +14,32 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1705438772305,
-      "stop" : 1705438772305,
+      "start" : 1705438792263,
+      "stop" : 1705438792263,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
     "stepsCount" : 0
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1705438771562,
-      "stop" : 1705438772305,
-      "duration" : 743
+      "start" : 1705438791503,
+      "stop" : 1705438792263,
+      "duration" : 760
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
     "stepsCount" : 0
   } ],
   "testStage" : {
@@ -47,24 +47,24 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1705438772305,
-        "stop" : 1705438773653,
-        "duration" : 1348
+        "start" : 1705438792263,
+        "stop" : 1705438793622,
+        "duration" : 1359
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1705438773653,
-        "stop" : 1705438774712,
-        "duration" : 1059
+        "start" : 1705438793622,
+        "stop" : 1705438794678,
+        "duration" : 1056
       },
       "status" : "passed",
       "steps" : [ ],
@@ -73,16 +73,16 @@
         "name" : "login",
         "value" : "'admin'"
       } ],
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
       "stepsCount" : 0
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1705438774712,
-        "stop" : 1705438774786,
-        "duration" : 74
+        "start" : 1705438794679,
+        "stop" : 1705438794744,
+        "duration" : 65
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,136 +91,151 @@
         "name" : "password",
         "value" : "'admin123'"
       } ],
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : true,
       "stepsCount" : 0
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1705438774786,
-        "stop" : 1705438774829,
-        "duration" : 43
+        "start" : 1705438794744,
+        "stop" : 1705438794792,
+        "duration" : 48
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1705438774830,
-        "stop" : 1705438775857,
-        "duration" : 1027
+        "start" : 1705438794792,
+        "stop" : 1705438795725,
+        "duration" : 933
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0
     }, {
-      "name" : "Click on 'Buzz' link",
+      "name" : "Click on 'My Info' link",
       "time" : {
-        "start" : 1705438775857,
-        "stop" : 1705438777232,
-        "duration" : 1375
+        "start" : 1705438795725,
+        "stop" : 1705438797450,
+        "duration" : 1725
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
       "time" : {
-        "start" : 1705438777232,
-        "stop" : 1705438777235,
+        "start" : 1705438797450,
+        "stop" : 1705438797453,
         "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0
     }, {
-      "name" : "Enter text: 'This is a test post'",
+      "name" : "Change name on 'Test 77'",
       "time" : {
-        "start" : 1705438777235,
-        "stop" : 1705438778324,
-        "duration" : 1089
+        "start" : 1705438797453,
+        "stop" : 1705438798577,
+        "duration" : 1124
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Save changes",
+      "time" : {
+        "start" : 1705438798578,
+        "stop" : 1705438798634,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
       "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0
     }, {
       "name" : "Changes has been saved successfully",
       "time" : {
-        "start" : 1705438778324,
-        "stop" : 1705438778333,
-        "duration" : 9
+        "start" : 1705438798634,
+        "stop" : 1705438801702,
+        "duration" : 3068
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
+      "hasContent" : false,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "hasContent" : false,
       "stepsCount" : 0
     } ],
     "attachments" : [ {
-      "uid" : "1d5a1be9c631c980",
+      "uid" : "59481675df7118c6",
       "name" : "Success",
-      "source" : "1d5a1be9c631c980.png",
+      "source" : "59481675df7118c6.png",
       "type" : "image/png",
-      "size" : 163937
+      "size" : 162851
     } ],
     "parameters" : [ ],
+    "hasContent" : true,
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "hasContent" : true,
-    "stepsCount" : 9
+    "stepsCount" : 10
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705438778507,
-      "stop" : 1705438778564,
-      "duration" : 57
+      "start" : 1705438801865,
+      "stop" : 1705438801949,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : false,
     "stepsCount" : 0
   } ],
   "labels" : [ {
     "name" : "severity",
-    "value" : "Normal"
+    "value" : "Critical"
   }, {
     "name" : "feature",
-    "value" : "Newsfeed Functionality"
+    "value" : "Profile Functionality"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -229,13 +244,13 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "newsfeed_post_test"
+    "value" : "feature_profile_test"
   }, {
     "name" : "subSuite",
-    "value" : "TestNewsfeedFeature"
+    "value" : "TestProfileFeature"
   }, {
     "name" : "host",
-    "value" : "3c2c6d4ead28"
+    "value" : "ce2e5eb64ff5"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -247,7 +262,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.newsfeed_post_test"
+    "value" : "tests.feature_profile_test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -257,31 +272,82 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 1,
+        "broken" : 4,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 2
+        "total" : 8
       },
       "items" : [ {
-        "uid" : "319d12a36e702768",
+        "uid" : "51bba3994c860043",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/lib/chromium/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
         "time" : {
-          "start" : 1705438609529,
-          "stop" : 1705438609529,
+          "start" : 1705438608734,
+          "stop" : 1705438608734,
           "duration" : 0
+        }
+      }, {
+        "uid" : "a5d8d8a7eafec134",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/lib/chromium/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+        "time" : {
+          "start" : 1705438396533,
+          "stop" : 1705438396533,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "12c76bd6b7418f17",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705429820233,
+          "stop" : 1705429829746,
+          "duration" : 9513
+        }
+      }, {
+        "uid" : "55ccf6f782093cbd",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1705424206129,
+          "stop" : 1705424227417,
+          "duration" : 21288
+        }
+      }, {
+        "uid" : "39235ae6266da782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705423851981,
+          "stop" : 1705423861653,
+          "duration" : 9672
+        }
+      }, {
+        "uid" : "734deca96d85c004",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705423642641,
+          "stop" : 1705423652686,
+          "duration" : 10045
+        }
+      }, {
+        "uid" : "43a41d77654e4fae",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1705423446710,
+          "stop" : 1705423468057,
+          "duration" : 21347
         }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "cab9e31bf216950e.json",
+  "source" : "e9e9737b9747ebfc.json",
   "parameterValues" : [ ]
 }
