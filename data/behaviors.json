@@ -4,19 +4,36 @@
     "name" : "Profile Functionality",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "12c76bd6b7418f17",
+      "uid" : "a5d8d8a7eafec134",
       "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1705429820233,
-        "stop" : 1705429829746,
-        "duration" : 9513
+        "start" : 1705438396533,
+        "stop" : 1705438396533,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "bfe6fb5a25b9d3632e34c1e8a59f2830"
+  }, {
+    "name" : "Newsfeed Functionality",
+    "children" : [ {
+      "name" : "Newsfeed Newsfeed",
+      "uid" : "6e307eadbe3bd102",
+      "parentUid" : "eb487edc247bc413686d15865563233f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1705438397328,
+        "stop" : 1705438397328,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eb487edc247bc413686d15865563233f"
   } ],
   "name" : "behaviors"
 }
