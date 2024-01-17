@@ -1,30 +1,40 @@
 [ {
-  "uid" : "62cd7edf36067460",
-  "name" : "Change profile name",
+  "uid" : "f42b5f45f733fc80",
+  "name" : "Post a buzz",
   "time" : {
-    "start" : 1705495826630,
-    "stop" : 1705495837707,
-    "duration" : 11077
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "812fd4ea55c8c4a6",
-  "name" : "Delete a buzz",
-  "time" : {
-    "start" : 1705495815942,
-    "stop" : 1705495825831,
-    "duration" : 9889
+    "start" : 1705500654844,
+    "stop" : 1705500664016,
+    "duration" : 9172
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5f370aa8d8dfb3e6",
-  "name" : "Post a buzz",
+  "uid" : "2118c612b8a2a1b6",
+  "name" : "Change profile name",
   "time" : {
-    "start" : 1705495807401,
-    "stop" : 1705495815118,
-    "duration" : 7717
+    "start" : 1705500677008,
+    "stop" : 1705500688598,
+    "duration" : 11590
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "940df47864cc03b7",
+  "name" : "Change profile last name",
+  "time" : {
+    "start" : 1705500689412,
+    "stop" : 1705500700878,
+    "duration" : 11466
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "310d2e002afa1b6c",
+  "name" : "Delete a buzz",
+  "time" : {
+    "start" : 1705500664859,
+    "stop" : 1705500676197,
+    "duration" : 11338
   },
   "status" : "passed",
   "severity" : "normal"
