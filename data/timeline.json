@@ -1,52 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "487006933a06",
+    "name" : "35af351e55df",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Change profile name",
-        "uid" : "3423ebfdd8273d1e",
-        "parentUid" : "56f1bcc05717bf7c8d35595f4ed67fb9",
+        "uid" : "42d642a00bf3a6df",
+        "parentUid" : "e470fe58d9b494a0966b27625ea79056",
         "status" : "passed",
         "time" : {
-          "start" : 1705493440187,
-          "stop" : 1705493451573,
-          "duration" : 11386
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Post a buzz",
-        "uid" : "394c2a9737ff71b1",
-        "parentUid" : "56f1bcc05717bf7c8d35595f4ed67fb9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1705493419653,
-          "stop" : 1705493428373,
-          "duration" : 8720
+          "start" : 1705493577634,
+          "stop" : 1705493588063,
+          "duration" : 10429
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete a buzz",
-        "uid" : "23574436309586f3",
-        "parentUid" : "56f1bcc05717bf7c8d35595f4ed67fb9",
+        "uid" : "7bccafb3f7186e25",
+        "parentUid" : "e470fe58d9b494a0966b27625ea79056",
         "status" : "passed",
         "time" : {
-          "start" : 1705493429201,
-          "stop" : 1705493439386,
-          "duration" : 10185
+          "start" : 1705493567185,
+          "stop" : 1705493576825,
+          "duration" : 9640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Post a buzz",
+        "uid" : "a7f11abe0ca2e035",
+        "parentUid" : "e470fe58d9b494a0966b27625ea79056",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705493559510,
+          "stop" : 1705493566356,
+          "duration" : 6846
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "56f1bcc05717bf7c8d35595f4ed67fb9"
+      "uid" : "e470fe58d9b494a0966b27625ea79056"
     } ],
-    "uid" : "c54502dd5efbd1f0cc19fd9882b518fb"
+    "uid" : "e73ebd467d62be8a3c3cbb380aae041b"
   } ],
   "name" : "timeline"
 }
