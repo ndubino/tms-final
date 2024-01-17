@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "ce2e5eb64ff5",
+    "name" : "53b86c72599d",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Newsfeed Newsfeed",
-        "uid" : "cb7a946c30886e37",
-        "parentUid" : "c1652b593562fd69b7761507a8b5ff33",
-        "status" : "passed",
+        "name" : "Change profile name",
+        "uid" : "7a2fc5b67e32eefd",
+        "parentUid" : "bfb37373fd18aa8b906e52aa63c81d64",
+        "status" : "broken",
         "time" : {
-          "start" : 1705438802694,
-          "stop" : 1705438808880,
-          "duration" : 6186
+          "start" : 1705493079042,
+          "stop" : 1705493099441,
+          "duration" : 20399
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Change profile name",
-        "uid" : "e9e9737b9747ebfc",
-        "parentUid" : "c1652b593562fd69b7761507a8b5ff33",
-        "status" : "passed",
+        "name" : "Post a buzz",
+        "uid" : "c1916113527e04c8",
+        "parentUid" : "bfb37373fd18aa8b906e52aa63c81d64",
+        "status" : "broken",
         "time" : {
-          "start" : 1705438792263,
-          "stop" : 1705438801864,
-          "duration" : 9601
+          "start" : 1705493072022,
+          "stop" : 1705493078147,
+          "duration" : 6125
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "c1652b593562fd69b7761507a8b5ff33"
+      "uid" : "bfb37373fd18aa8b906e52aa63c81d64"
     } ],
-    "uid" : "b0f7c6a21863a19e2864a5cc76f9ae3b"
+    "uid" : "1a4bf89216b16af0bf01df3e2003e1a7"
   } ],
   "name" : "timeline"
 }

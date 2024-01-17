@@ -1,21 +1,21 @@
 [ {
-  "uid" : "cb7a946c30886e37",
-  "name" : "Newsfeed Newsfeed",
-  "time" : {
-    "start" : 1705438802694,
-    "stop" : 1705438808880,
-    "duration" : 6186
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9e9737b9747ebfc",
+  "uid" : "7a2fc5b67e32eefd",
   "name" : "Change profile name",
   "time" : {
-    "start" : 1705438792263,
-    "stop" : 1705438801864,
-    "duration" : 9601
+    "start" : 1705493079042,
+    "stop" : 1705493099441,
+    "duration" : 20399
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "critical"
+}, {
+  "uid" : "c1916113527e04c8",
+  "name" : "Post a buzz",
+  "time" : {
+    "start" : 1705493072022,
+    "stop" : 1705493078147,
+    "duration" : 6125
+  },
+  "status" : "broken",
+  "severity" : "normal"
 } ]
