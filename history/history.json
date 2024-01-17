@@ -1,4 +1,23 @@
 {
+  "9ce36c69e1fa62f120b613a7461e196c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23574436309586f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493429201,
+        "stop" : 1705493439386,
+        "duration" : 10185
+      }
+    } ]
+  },
   "97dcf14e40650ccdfc9f167726a37e23" : {
     "statistic" : {
       "failed" : 0,
@@ -24,11 +43,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "394c2a9737ff71b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493419653,
+        "stop" : 1705493428373,
+        "duration" : 8720
+      }
+    }, {
       "uid" : "c1916113527e04c8",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
@@ -72,11 +99,19 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "3423ebfdd8273d1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493440187,
+        "stop" : 1705493451573,
+        "duration" : 11386
+      }
+    }, {
       "uid" : "7a2fc5b67e32eefd",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
