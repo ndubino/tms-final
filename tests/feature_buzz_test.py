@@ -5,6 +5,7 @@ import pytest
 from base.base_test import BaseTest
 
 
+
 @allure.feature("Buzz Functionality")
 class TestNewsfeedFeature(BaseTest):
     @allure.title("Post a buzz")
@@ -20,6 +21,7 @@ class TestNewsfeedFeature(BaseTest):
         self.buzz_page.is_opened()
         self.buzz_page.post_buzz()
         self.buzz_page.is_changes_saved()
+        self.buzz_page.make_screenshot("Success")
 
     @allure.title("Delete a buzz")
     @allure.severity("Normal")
@@ -33,3 +35,5 @@ class TestNewsfeedFeature(BaseTest):
         self.dashboard_page.click_buzz_link()
         self.buzz_page.is_opened()
         self.buzz_page.delete_buzz()
+        self.buzz_page.is_changes_saved()
+        self.buzz_page.make_screenshot("Success")
