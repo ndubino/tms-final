@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jan 17 12:12:39 GMT 2024","Wed Jan 17 12:12:46 GMT 2024","6846","tests","feature_buzz_test","TestNewsfeedFeature","","","Post a buzz",""
-"passed","Wed Jan 17 12:12:47 GMT 2024","Wed Jan 17 12:12:56 GMT 2024","9640","tests","feature_buzz_test","TestNewsfeedFeature","","","Delete a buzz",""
-"passed","Wed Jan 17 12:12:57 GMT 2024","Wed Jan 17 12:13:08 GMT 2024","10429","tests","feature_profile_test","TestProfileFeature","","","Change profile name",""
+"passed","Wed Jan 17 12:50:07 GMT 2024","Wed Jan 17 12:50:15 GMT 2024","7717","tests","feature_buzz_test","TestNewsfeedFeature","","","Post a buzz",""
+"passed","Wed Jan 17 12:50:26 GMT 2024","Wed Jan 17 12:50:37 GMT 2024","11077","tests","feature_profile_test","TestProfileFeature","","","Change profile name",""
+"passed","Wed Jan 17 12:50:15 GMT 2024","Wed Jan 17 12:50:25 GMT 2024","9889","tests","feature_buzz_test","TestNewsfeedFeature","","","Delete a buzz",""

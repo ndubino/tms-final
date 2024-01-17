@@ -1,12 +1,12 @@
 {
-  "uid" : "a7f11abe0ca2e035",
+  "uid" : "5f370aa8d8dfb3e6",
   "name" : "Post a buzz",
   "fullName" : "tests.feature_buzz_test.TestNewsfeedFeature#test_make_a_post",
   "historyId" : "44ed9b5f78cb3329e3b2ded07c6beb4b",
   "time" : {
-    "start" : 1705493559510,
-    "stop" : 1705493566356,
-    "duration" : 6846
+    "start" : 1705495807401,
+    "stop" : 1705495815118,
+    "duration" : 7717
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1705493558728,
-      "stop" : 1705493559510,
-      "duration" : 782
+      "start" : 1705495806650,
+      "stop" : 1705495807401,
+      "duration" : 751
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,8 +29,8 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1705493559510,
-      "stop" : 1705493559510,
+      "start" : 1705495807401,
+      "stop" : 1705495807401,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1705493559510,
-        "stop" : 1705493561047,
-        "duration" : 1537
+        "start" : 1705495807401,
+        "stop" : 1705495808826,
+        "duration" : 1425
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1705493561047,
-        "stop" : 1705493562104,
-        "duration" : 1057
+        "start" : 1705495808826,
+        "stop" : 1705495809881,
+        "duration" : 1055
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1705493562105,
-        "stop" : 1705493562174,
-        "duration" : 69
+        "start" : 1705495809881,
+        "stop" : 1705495809942,
+        "duration" : 61
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1705493562174,
-        "stop" : 1705493562219,
-        "duration" : 45
+        "start" : 1705495809942,
+        "stop" : 1705495809992,
+        "duration" : 50
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1705493562219,
-        "stop" : 1705493563153,
-        "duration" : 934
+        "start" : 1705495809992,
+        "stop" : 1705495811117,
+        "duration" : 1125
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,9 +128,9 @@
     }, {
       "name" : "Click on 'Buzz' link",
       "time" : {
-        "start" : 1705493563153,
-        "stop" : 1705493564986,
-        "duration" : 1833
+        "start" : 1705495811117,
+        "stop" : 1705495812770,
+        "duration" : 1653
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz is opened",
       "time" : {
-        "start" : 1705493564986,
-        "stop" : 1705493564989,
-        "duration" : 3
+        "start" : 1705495812770,
+        "stop" : 1705495812772,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -158,9 +158,9 @@
     }, {
       "name" : "Fill buzz text field and post it",
       "time" : {
-        "start" : 1705493564989,
-        "stop" : 1705493566119,
-        "duration" : 1130
+        "start" : 1705495812772,
+        "stop" : 1705495813865,
+        "duration" : 1093
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,9 +173,9 @@
     }, {
       "name" : "Buzz has been deleted successfully",
       "time" : {
-        "start" : 1705493566119,
-        "stop" : 1705493566159,
-        "duration" : 40
+        "start" : 1705495813865,
+        "stop" : 1705495814886,
+        "duration" : 1021
       },
       "status" : "passed",
       "steps" : [ ],
@@ -187,11 +187,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "c1d0cfb9ea9265be",
+      "uid" : "dee62e710c0f72e3",
       "name" : "Success",
-      "source" : "c1d0cfb9ea9265be.png",
+      "source" : "dee62e710c0f72e3.png",
       "type" : "image/png",
-      "size" : 172791
+      "size" : 521277
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -202,9 +202,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705493566357,
-      "stop" : 1705493566442,
-      "duration" : 85
+      "start" : 1705495815119,
+      "stop" : 1705495815205,
+      "duration" : 86
     },
     "status" : "passed",
     "steps" : [ ],
@@ -235,7 +235,7 @@
     "value" : "TestNewsfeedFeature"
   }, {
     "name" : "host",
-    "value" : "35af351e55df"
+    "value" : "0ef5b8214c22"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -265,11 +265,19 @@
         "failed" : 0,
         "broken" : 1,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
+        "uid" : "a7f11abe0ca2e035",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705493559510,
+          "stop" : 1705493566356,
+          "duration" : 6846
+        }
+      }, {
         "uid" : "394c2a9737ff71b1",
         "status" : "passed",
         "time" : {
@@ -290,6 +298,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "a7f11abe0ca2e035.json",
+  "source" : "5f370aa8d8dfb3e6.json",
   "parameterValues" : [ ]
 }

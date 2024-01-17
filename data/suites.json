@@ -8,26 +8,26 @@
         "name" : "TestNewsfeedFeature",
         "children" : [ {
           "name" : "Post a buzz",
-          "uid" : "a7f11abe0ca2e035",
+          "uid" : "5f370aa8d8dfb3e6",
           "parentUid" : "b886d6a4cf32b319915457d26e62cdd0",
           "status" : "passed",
           "time" : {
-            "start" : 1705493559510,
-            "stop" : 1705493566356,
-            "duration" : 6846
+            "start" : 1705495807401,
+            "stop" : 1705495815118,
+            "duration" : 7717
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Delete a buzz",
-          "uid" : "7bccafb3f7186e25",
+          "uid" : "812fd4ea55c8c4a6",
           "parentUid" : "b886d6a4cf32b319915457d26e62cdd0",
           "status" : "passed",
           "time" : {
-            "start" : 1705493567185,
-            "stop" : 1705493576825,
-            "duration" : 9640
+            "start" : 1705495815942,
+            "stop" : 1705495825831,
+            "duration" : 9889
           },
           "flaky" : false,
           "newFailed" : false,
@@ -42,13 +42,13 @@
         "name" : "TestProfileFeature",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "42d642a00bf3a6df",
+          "uid" : "62cd7edf36067460",
           "parentUid" : "ecec602510fca8558358a9e53be22b2c",
           "status" : "passed",
           "time" : {
-            "start" : 1705493577634,
-            "stop" : 1705493588063,
-            "duration" : 10429
+            "start" : 1705495826630,
+            "stop" : 1705495837707,
+            "duration" : 11077
           },
           "flaky" : false,
           "newFailed" : false,
