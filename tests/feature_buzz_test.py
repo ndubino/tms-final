@@ -5,7 +5,6 @@ import pytest
 from base.base_test import BaseTest
 
 
-
 @allure.feature("Buzz Functionality")
 class TestNewsfeedFeature(BaseTest):
     @allure.title("Post a buzz")
