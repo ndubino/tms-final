@@ -1,5 +1,4 @@
-import time
-
+import platform
 import allure
 from base.base_page import BasePage
 from config.links import Links
@@ -19,9 +18,12 @@ class PersonalPage(BasePage):
         with allure.step(f"Change name on '{new_name}'"):
             first_name_field = self.wait.until(EC.element_to_be_clickable(self.FIRST_NAME_FIELD))
 
+            os_name = platform.system().lower()
+            select_all = Keys.COMMAND if os_name == 'darwin' else Keys.CONTROL
+
             # self.driver.execute_script("arguments[0].value = '';", first_name_field)
 
-            first_name_field.send_keys(Keys.COMMAND + "A")
+            first_name_field.send_keys(select_all + "a")
             first_name_field.send_keys(Keys.BACKSPACE)
 
             first_name_field.send_keys(new_name)
