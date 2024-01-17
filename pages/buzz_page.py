@@ -38,6 +38,9 @@ class BuzzPage(BasePage):
             buzz_setting_button.click()
             self.wait.until(EC.element_to_be_clickable(self.BUZZ_DELETE_BUTTON)).click()
             self.wait.until(EC.element_to_be_clickable(self.BUZZ_ACCEPT_DELETE_BUTTON)).click()
-            self.wait.until(EC.invisibility_of_element_located(self.SPINNER))
 
-            time.sleep(10)
+    @allure.step("Buzz has been deleted successfully")
+    def is_changes_saved(self):
+        self.wait.until(EC.invisibility_of_element_located(self.SPINNER))
+
+
