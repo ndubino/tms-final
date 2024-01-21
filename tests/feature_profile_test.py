@@ -1,3 +1,4 @@
+# Tests for profile functionality
 import random
 import allure
 import pytest

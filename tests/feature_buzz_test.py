@@ -1,5 +1,4 @@
-from datetime import time
-
+# Tests for Buzz functionality
 import allure
 import pytest
 from base.base_test import BaseTest

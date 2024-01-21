@@ -1,3 +1,5 @@
+import time
+
 import allure
 from base.base_page import BasePage
 from config.links import Links
@@ -10,6 +12,7 @@ class DashboardPage(BasePage):
 
     MY_INFO_BUTTON = ("xpath", "//span[text()='My Info']")
     BUZZ_BUTTON = ("xpath", "//span[text()='Buzz']")
+    DEPENDENTS_BUTTON = ("xpath", "//a[text()='Dependents']")
 
     @allure.step("Click on 'My Info' link")
     def click_my_info_link(self):
@@ -18,3 +21,8 @@ class DashboardPage(BasePage):
     @allure.step("Click on 'Buzz' link")
     def click_buzz_link(self):
         self.wait.until(EC.element_to_be_clickable(self.BUZZ_BUTTON)).click()
+
+    @allure.step("Click on 'Dependents' link")
+    def click_dependents_link(self):
+        self.wait.until(EC.element_to_be_clickable(self.MY_INFO_BUTTON)).click()
+        self.wait.until(EC.element_to_be_clickable(self.DEPENDENTS_BUTTON)).click()
