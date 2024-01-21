@@ -19,6 +19,7 @@ class TestNewsfeedFeature(BaseTest):
         self.dashboard_page.click_buzz_link()
         self.buzz_page.is_opened()
         self.buzz_page.post_buzz()
+        self.buzz_page.click_post_button()
         self.buzz_page.is_changes_saved()
         self.buzz_page.make_screenshot("Success")
 

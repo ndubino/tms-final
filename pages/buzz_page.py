@@ -10,7 +10,7 @@ class BuzzPage(BasePage):
     PAGE_URL = Links.BUZZ_PAGE
 
     BUZZ_TEXT_FIELD = ("xpath", "//textarea[@class='oxd-buzz-post-input']")
-    BUZZ_POST_BUTTON = ("xpath", "//*[@class='oxd-button oxd-button--medium oxd-button--main']")
+    BUZZ_POST_BUTTON = ("xpath", "//*[text()=' Post ']")
     BUZZ_SETTING_BUTTON = ("xpath", "//*[@class='orangehrm-buzz-post-header-config'][1]")
     BUZZ_DELETE_BUTTON = ("xpath", "//*[text()='Delete Post']")
     BUZZ_ACCEPT_DELETE_BUTTON = ("xpath", "//*[@class='oxd-icon bi-trash oxd-button-icon']")
