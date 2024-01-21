@@ -1,0 +1,334 @@
+{
+  "uid" : "6f1caa17e3513996",
+  "name" : "Delete a buzz",
+  "fullName" : "tests.feature_buzz_test.TestNewsfeedFeature#test_delete_a_post",
+  "historyId" : "9ce36c69e1fa62f120b613a7461e196c",
+  "time" : {
+    "start" : 1705875116571,
+    "stop" : 1705875126437,
+    "duration" : 9866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1705875115829,
+      "stop" : 1705875116570,
+      "duration" : 741
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1705875116570,
+      "stop" : 1705875116571,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
+      "time" : {
+        "start" : 1705875116571,
+        "stop" : 1705875118545,
+        "duration" : 1974
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter login",
+      "time" : {
+        "start" : 1705875118545,
+        "stop" : 1705875119600,
+        "duration" : 1055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password",
+      "time" : {
+        "start" : 1705875119600,
+        "stop" : 1705875119670,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'admin123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click submit button",
+      "time" : {
+        "start" : 1705875119670,
+        "stop" : 1705875119712,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
+      "time" : {
+        "start" : 1705875119712,
+        "stop" : 1705875120651,
+        "duration" : 939
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on 'Buzz' link",
+      "time" : {
+        "start" : 1705875120651,
+        "stop" : 1705875122103,
+        "duration" : 1452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz is opened",
+      "time" : {
+        "start" : 1705875122103,
+        "stop" : 1705875122105,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Delete buzz",
+      "time" : {
+        "start" : 1705875122105,
+        "stop" : 1705875126278,
+        "duration" : 4173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Buzz has been deleted successfully",
+      "time" : {
+        "start" : 1705875126278,
+        "stop" : 1705875126287,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "577b6c33c2140c2a",
+      "name" : "Success",
+      "source" : "577b6c33c2140c2a.png",
+      "type" : "image/png",
+      "size" : 173503
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1705875126438,
+      "stop" : 1705875126495,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Buzz Functionality"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "feature_buzz_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewsfeedFeature"
+  }, {
+    "name" : "host",
+    "value" : "cbc0f1f27832"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.feature_buzz_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "6b5597afe2de2d82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860862828,
+          "stop" : 1705860872330,
+          "duration" : 9502
+        }
+      }, {
+        "uid" : "efa38801a3cfe9a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860267399,
+          "stop" : 1705860277679,
+          "duration" : 10280
+        }
+      }, {
+        "uid" : "ec0d2fa2928237c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705835130460,
+          "stop" : 1705835140795,
+          "duration" : 10335
+        }
+      }, {
+        "uid" : "310d2e002afa1b6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705500664859,
+          "stop" : 1705500676197,
+          "duration" : 11338
+        }
+      }, {
+        "uid" : "812fd4ea55c8c4a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705495815942,
+          "stop" : 1705495825831,
+          "duration" : 9889
+        }
+      }, {
+        "uid" : "7bccafb3f7186e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705493567185,
+          "stop" : 1705493576825,
+          "duration" : 9640
+        }
+      }, {
+        "uid" : "23574436309586f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705493429201,
+          "stop" : 1705493439386,
+          "duration" : 10185
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "6f1caa17e3513996.json",
+  "parameterValues" : [ ]
+}
