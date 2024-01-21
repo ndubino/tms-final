@@ -1,65 +1,91 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "922645b0616b",
+    "name" : "5241ad73f7a0",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Post a buzz",
-        "uid" : "c228e1366e5b410d",
-        "parentUid" : "e3b59695d32c89b62ebda3829d384c4b",
-        "status" : "broken",
+        "name" : "Login to the system with invalid credentials",
+        "uid" : "381630ef348e8308",
+        "parentUid" : "32cb5719d7cef5c17a6a21dd8c573d92",
+        "status" : "passed",
         "time" : {
-          "start" : 1705835122623,
-          "stop" : 1705835129590,
-          "duration" : 6967
+          "start" : 1705860307969,
+          "stop" : 1705860313256,
+          "duration" : 5287
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Delete a buzz",
-        "uid" : "ec0d2fa2928237c9",
-        "parentUid" : "e3b59695d32c89b62ebda3829d384c4b",
+        "name" : "Post a buzz",
+        "uid" : "73e21833676f2778",
+        "parentUid" : "32cb5719d7cef5c17a6a21dd8c573d92",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705860259510,
+          "stop" : 1705860266521,
+          "duration" : 7011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to the system successfully",
+        "uid" : "9be0e7162f820999",
+        "parentUid" : "32cb5719d7cef5c17a6a21dd8c573d92",
         "status" : "passed",
         "time" : {
-          "start" : 1705835130460,
-          "stop" : 1705835140795,
-          "duration" : 10335
+          "start" : 1705860301878,
+          "stop" : 1705860307173,
+          "duration" : 5295
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Change profile last name",
-        "uid" : "d5cc069de4d0bec7",
-        "parentUid" : "e3b59695d32c89b62ebda3829d384c4b",
+        "uid" : "24c1f937b69b1f6a",
+        "parentUid" : "32cb5719d7cef5c17a6a21dd8c573d92",
         "status" : "passed",
         "time" : {
-          "start" : 1705835152910,
-          "stop" : 1705835163747,
-          "duration" : 10837
+          "start" : 1705860290230,
+          "stop" : 1705860301083,
+          "duration" : 10853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete a buzz",
+        "uid" : "efa38801a3cfe9a5",
+        "parentUid" : "32cb5719d7cef5c17a6a21dd8c573d92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860267399,
+          "stop" : 1705860277679,
+          "duration" : 10280
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Change profile name",
-        "uid" : "bd68065a7f23228f",
-        "parentUid" : "e3b59695d32c89b62ebda3829d384c4b",
+        "uid" : "c98b26f48d139e06",
+        "parentUid" : "32cb5719d7cef5c17a6a21dd8c573d92",
         "status" : "passed",
         "time" : {
-          "start" : 1705835141589,
-          "stop" : 1705835152114,
-          "duration" : 10525
+          "start" : 1705860278482,
+          "stop" : 1705860289435,
+          "duration" : 10953
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "e3b59695d32c89b62ebda3829d384c4b"
+      "uid" : "32cb5719d7cef5c17a6a21dd8c573d92"
     } ],
-    "uid" : "790fc1c1bf0519e50b7f0272a72800bd"
+    "uid" : "a3be6b371eafb1ab2578283dc1c80c66"
   } ],
   "name" : "timeline"
 }

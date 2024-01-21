@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "1676f6640c0e7757b096e40c54210a24",
     "name" : "Buzz Functionality",
@@ -14,6 +14,17 @@
   }, {
     "uid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
     "name" : "Profile Functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "cfe439a8cb5b4e3afb016ca4dfc57392",
+    "name" : "Login Functionality",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
