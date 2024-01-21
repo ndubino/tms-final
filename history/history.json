@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "75826dcf352c7c19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860913685,
+        "stop" : 1705860918104,
+        "duration" : 4419
+      }
+    }, {
       "uid" : "381630ef348e8308",
       "status" : "passed",
       "time" : {
@@ -69,13 +77,22 @@
   "42b4a115007c35c622675a0baedb491a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
       "passed" : 10,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "3bd6bebfec713bb4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1705860873130,
+        "stop" : 1705860894444,
+        "duration" : 21314
+      }
+    }, {
       "uid" : "c98b26f48d139e06",
       "status" : "passed",
       "time" : {
@@ -207,11 +224,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "6b5597afe2de2d82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860862828,
+        "stop" : 1705860872330,
+        "duration" : 9502
+      }
+    }, {
       "uid" : "efa38801a3cfe9a5",
       "status" : "passed",
       "time" : {
@@ -266,11 +291,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "f870a43e00fd36ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860895265,
+        "stop" : 1705860906500,
+        "duration" : 11235
+      }
+    }, {
       "uid" : "24c1f937b69b1f6a",
       "status" : "passed",
       "time" : {
@@ -301,11 +334,19 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "1d992aacd03ea498",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860854555,
+        "stop" : 1705860862000,
+        "duration" : 7445
+      }
+    }, {
       "uid" : "73e21833676f2778",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
@@ -371,11 +412,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d96307c668021f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860907298,
+        "stop" : 1705860912889,
+        "duration" : 5591
+      }
+    }, {
       "uid" : "9be0e7162f820999",
       "status" : "passed",
       "time" : {

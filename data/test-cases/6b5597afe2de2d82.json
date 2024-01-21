@@ -1,0 +1,326 @@
+{
+  "uid" : "6b5597afe2de2d82",
+  "name" : "Delete a buzz",
+  "fullName" : "tests.feature_buzz_test.TestNewsfeedFeature#test_delete_a_post",
+  "historyId" : "9ce36c69e1fa62f120b613a7461e196c",
+  "time" : {
+    "start" : 1705860862828,
+    "stop" : 1705860872330,
+    "duration" : 9502
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1705860862085,
+      "stop" : 1705860862827,
+      "duration" : 742
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1705860862827,
+      "stop" : 1705860862828,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
+      "time" : {
+        "start" : 1705860862828,
+        "stop" : 1705860865084,
+        "duration" : 2256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Enter login",
+      "time" : {
+        "start" : 1705860865084,
+        "stop" : 1705860866139,
+        "duration" : 1055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "'admin'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Enter password",
+      "time" : {
+        "start" : 1705860866140,
+        "stop" : 1705860866209,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "'admin123'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Click submit button",
+      "time" : {
+        "start" : 1705860866209,
+        "stop" : 1705860866251,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
+      "time" : {
+        "start" : 1705860866251,
+        "stop" : 1705860867536,
+        "duration" : 1285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on 'Buzz' link",
+      "time" : {
+        "start" : 1705860867536,
+        "stop" : 1705860869005,
+        "duration" : 1469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz is opened",
+      "time" : {
+        "start" : 1705860869005,
+        "stop" : 1705860869007,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Delete buzz",
+      "time" : {
+        "start" : 1705860869007,
+        "stop" : 1705860872177,
+        "duration" : 3170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Buzz has been deleted successfully",
+      "time" : {
+        "start" : 1705860872177,
+        "stop" : 1705860872186,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f811fd83a8200327",
+      "name" : "Success",
+      "source" : "f811fd83a8200327.png",
+      "type" : "image/png",
+      "size" : 139770
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1705860872331,
+      "stop" : 1705860872388,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Buzz Functionality"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "feature_buzz_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestNewsfeedFeature"
+  }, {
+    "name" : "host",
+    "value" : "8178d88e5b84"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.feature_buzz_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "efa38801a3cfe9a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860267399,
+          "stop" : 1705860277679,
+          "duration" : 10280
+        }
+      }, {
+        "uid" : "ec0d2fa2928237c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705835130460,
+          "stop" : 1705835140795,
+          "duration" : 10335
+        }
+      }, {
+        "uid" : "310d2e002afa1b6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705500664859,
+          "stop" : 1705500676197,
+          "duration" : 11338
+        }
+      }, {
+        "uid" : "812fd4ea55c8c4a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705495815942,
+          "stop" : 1705495825831,
+          "duration" : 9889
+        }
+      }, {
+        "uid" : "7bccafb3f7186e25",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705493567185,
+          "stop" : 1705493576825,
+          "duration" : 9640
+        }
+      }, {
+        "uid" : "23574436309586f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705493429201,
+          "stop" : 1705493439386,
+          "duration" : 10185
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "6b5597afe2de2d82.json",
+  "parameterValues" : [ ]
+}

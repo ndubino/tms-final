@@ -4,26 +4,26 @@
     "name" : "Buzz Functionality",
     "children" : [ {
       "name" : "Post a buzz",
-      "uid" : "73e21833676f2778",
+      "uid" : "1d992aacd03ea498",
       "parentUid" : "1676f6640c0e7757b096e40c54210a24",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1705860259510,
-        "stop" : 1705860266521,
-        "duration" : 7011
+        "start" : 1705860854555,
+        "stop" : 1705860862000,
+        "duration" : 7445
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Delete a buzz",
-      "uid" : "efa38801a3cfe9a5",
+      "uid" : "6b5597afe2de2d82",
       "parentUid" : "1676f6640c0e7757b096e40c54210a24",
       "status" : "passed",
       "time" : {
-        "start" : 1705860267399,
-        "stop" : 1705860277679,
-        "duration" : 10280
+        "start" : 1705860862828,
+        "stop" : 1705860872330,
+        "duration" : 9502
       },
       "flaky" : false,
       "newFailed" : false,
@@ -34,26 +34,26 @@
     "name" : "Profile Functionality",
     "children" : [ {
       "name" : "Change profile name",
-      "uid" : "c98b26f48d139e06",
+      "uid" : "3bd6bebfec713bb4",
       "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1705860278482,
-        "stop" : 1705860289435,
-        "duration" : 10953
+        "start" : 1705860873130,
+        "stop" : 1705860894444,
+        "duration" : 21314
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Change profile last name",
-      "uid" : "24c1f937b69b1f6a",
+      "uid" : "f870a43e00fd36ca",
       "parentUid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
       "status" : "passed",
       "time" : {
-        "start" : 1705860290230,
-        "stop" : 1705860301083,
-        "duration" : 10853
+        "start" : 1705860895265,
+        "stop" : 1705860906500,
+        "duration" : 11235
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,26 +64,26 @@
     "name" : "Login Functionality",
     "children" : [ {
       "name" : "Login to the system successfully",
-      "uid" : "9be0e7162f820999",
+      "uid" : "d96307c668021f0",
       "parentUid" : "cfe439a8cb5b4e3afb016ca4dfc57392",
       "status" : "passed",
       "time" : {
-        "start" : 1705860301878,
-        "stop" : 1705860307173,
-        "duration" : 5295
+        "start" : 1705860907298,
+        "stop" : 1705860912889,
+        "duration" : 5591
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Login to the system with invalid credentials",
-      "uid" : "381630ef348e8308",
+      "uid" : "75826dcf352c7c19",
       "parentUid" : "cfe439a8cb5b4e3afb016ca4dfc57392",
       "status" : "passed",
       "time" : {
-        "start" : 1705860307969,
-        "stop" : 1705860313256,
-        "duration" : 5287
+        "start" : 1705860913685,
+        "stop" : 1705860918104,
+        "duration" : 4419
       },
       "flaky" : false,
       "newFailed" : false,

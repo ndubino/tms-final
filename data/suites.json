@@ -8,26 +8,26 @@
         "name" : "TestNewsfeedFeature",
         "children" : [ {
           "name" : "Post a buzz",
-          "uid" : "73e21833676f2778",
+          "uid" : "1d992aacd03ea498",
           "parentUid" : "b886d6a4cf32b319915457d26e62cdd0",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1705860259510,
-            "stop" : 1705860266521,
-            "duration" : 7011
+            "start" : 1705860854555,
+            "stop" : 1705860862000,
+            "duration" : 7445
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Delete a buzz",
-          "uid" : "efa38801a3cfe9a5",
+          "uid" : "6b5597afe2de2d82",
           "parentUid" : "b886d6a4cf32b319915457d26e62cdd0",
           "status" : "passed",
           "time" : {
-            "start" : 1705860267399,
-            "stop" : 1705860277679,
-            "duration" : 10280
+            "start" : 1705860862828,
+            "stop" : 1705860872330,
+            "duration" : 9502
           },
           "flaky" : false,
           "newFailed" : false,
@@ -42,26 +42,26 @@
         "name" : "TestProfileFeature",
         "children" : [ {
           "name" : "Change profile name",
-          "uid" : "c98b26f48d139e06",
+          "uid" : "3bd6bebfec713bb4",
           "parentUid" : "ecec602510fca8558358a9e53be22b2c",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1705860278482,
-            "stop" : 1705860289435,
-            "duration" : 10953
+            "start" : 1705860873130,
+            "stop" : 1705860894444,
+            "duration" : 21314
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Change profile last name",
-          "uid" : "24c1f937b69b1f6a",
+          "uid" : "f870a43e00fd36ca",
           "parentUid" : "ecec602510fca8558358a9e53be22b2c",
           "status" : "passed",
           "time" : {
-            "start" : 1705860290230,
-            "stop" : 1705860301083,
-            "duration" : 10853
+            "start" : 1705860895265,
+            "stop" : 1705860906500,
+            "duration" : 11235
           },
           "flaky" : false,
           "newFailed" : false,
@@ -76,26 +76,26 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "Login to the system successfully",
-          "uid" : "9be0e7162f820999",
+          "uid" : "d96307c668021f0",
           "parentUid" : "abaa6657b84b5ae6bdae28654e3ff7ec",
           "status" : "passed",
           "time" : {
-            "start" : 1705860301878,
-            "stop" : 1705860307173,
-            "duration" : 5295
+            "start" : 1705860907298,
+            "stop" : 1705860912889,
+            "duration" : 5591
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Login to the system with invalid credentials",
-          "uid" : "381630ef348e8308",
+          "uid" : "75826dcf352c7c19",
           "parentUid" : "abaa6657b84b5ae6bdae28654e3ff7ec",
           "status" : "passed",
           "time" : {
-            "start" : 1705860307969,
-            "stop" : 1705860313256,
-            "duration" : 5287
+            "start" : 1705860913685,
+            "stop" : 1705860918104,
+            "duration" : 4419
           },
           "flaky" : false,
           "newFailed" : false,
