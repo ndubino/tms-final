@@ -1,40 +1,40 @@
 [ {
-  "uid" : "2118c612b8a2a1b6",
-  "name" : "Change profile name",
-  "time" : {
-    "start" : 1705500677008,
-    "stop" : 1705500688598,
-    "duration" : 11590
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "940df47864cc03b7",
-  "name" : "Change profile last name",
-  "time" : {
-    "start" : 1705500689412,
-    "stop" : 1705500700878,
-    "duration" : 11466
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "310d2e002afa1b6c",
-  "name" : "Delete a buzz",
-  "time" : {
-    "start" : 1705500664859,
-    "stop" : 1705500676197,
-    "duration" : 11338
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f42b5f45f733fc80",
+  "uid" : "c228e1366e5b410d",
   "name" : "Post a buzz",
   "time" : {
-    "start" : 1705500654844,
-    "stop" : 1705500664016,
-    "duration" : 9172
+    "start" : 1705835122623,
+    "stop" : 1705835129590,
+    "duration" : 6967
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d5cc069de4d0bec7",
+  "name" : "Change profile last name",
+  "time" : {
+    "start" : 1705835152910,
+    "stop" : 1705835163747,
+    "duration" : 10837
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bd68065a7f23228f",
+  "name" : "Change profile name",
+  "time" : {
+    "start" : 1705835141589,
+    "stop" : 1705835152114,
+    "duration" : 10525
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ec0d2fa2928237c9",
+  "name" : "Delete a buzz",
+  "time" : {
+    "start" : 1705835130460,
+    "stop" : 1705835140795,
+    "duration" : 10335
   },
   "status" : "passed",
   "severity" : "normal"

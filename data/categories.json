@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "children" : [ {
+        "name" : "Post a buzz",
+        "uid" : "c228e1366e5b410d",
+        "parentUid" : "d39bf102e1e5bf5134ee723b8fd3f516",
+        "status" : "broken",
+        "time" : {
+          "start" : 1705835122623,
+          "stop" : 1705835129590,
+          "duration" : 6967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d39bf102e1e5bf5134ee723b8fd3f516"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

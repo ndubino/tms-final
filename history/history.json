@@ -1,47 +1,4 @@
 {
-  "9ce36c69e1fa62f120b613a7461e196c" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    },
-    "items" : [ {
-      "uid" : "310d2e002afa1b6c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705500664859,
-        "stop" : 1705500676197,
-        "duration" : 11338
-      }
-    }, {
-      "uid" : "812fd4ea55c8c4a6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705495815942,
-        "stop" : 1705495825831,
-        "duration" : 9889
-      }
-    }, {
-      "uid" : "7bccafb3f7186e25",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705493567185,
-        "stop" : 1705493576825,
-        "duration" : 9640
-      }
-    }, {
-      "uid" : "23574436309586f3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705493429201,
-        "stop" : 1705493439386,
-        "duration" : 10185
-      }
-    } ]
-  },
   "97dcf14e40650ccdfc9f167726a37e23" : {
     "statistic" : {
       "failed" : 0,
@@ -59,77 +16,6 @@
         "start" : 1705438397328,
         "stop" : 1705438397328,
         "duration" : 0
-      }
-    } ]
-  },
-  "2c5dc0cf99bfc246160d903fddbe4955" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "940df47864cc03b7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705500689412,
-        "stop" : 1705500700878,
-        "duration" : 11466
-      }
-    } ]
-  },
-  "44ed9b5f78cb3329e3b2ded07c6beb4b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 5
-    },
-    "items" : [ {
-      "uid" : "f42b5f45f733fc80",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705500654844,
-        "stop" : 1705500664016,
-        "duration" : 9172
-      }
-    }, {
-      "uid" : "5f370aa8d8dfb3e6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705495807401,
-        "stop" : 1705495815118,
-        "duration" : 7717
-      }
-    }, {
-      "uid" : "a7f11abe0ca2e035",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705493559510,
-        "stop" : 1705493566356,
-        "duration" : 6846
-      }
-    }, {
-      "uid" : "394c2a9737ff71b1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705493419653,
-        "stop" : 1705493428373,
-        "duration" : 8720
-      }
-    }, {
-      "uid" : "c1916113527e04c8",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
-      "time" : {
-        "start" : 1705493072022,
-        "stop" : 1705493078147,
-        "duration" : 6125
       }
     } ]
   },
@@ -166,11 +52,19 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "bd68065a7f23228f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705835141589,
+        "stop" : 1705835152114,
+        "duration" : 10525
+      }
+    }, {
       "uid" : "2118c612b8a2a1b6",
       "status" : "passed",
       "time" : {
@@ -278,6 +172,145 @@
         "start" : 1705423446710,
         "stop" : 1705423468057,
         "duration" : 21347
+      }
+    } ]
+  },
+  "9ce36c69e1fa62f120b613a7461e196c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "ec0d2fa2928237c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705835130460,
+        "stop" : 1705835140795,
+        "duration" : 10335
+      }
+    }, {
+      "uid" : "310d2e002afa1b6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705500664859,
+        "stop" : 1705500676197,
+        "duration" : 11338
+      }
+    }, {
+      "uid" : "812fd4ea55c8c4a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705495815942,
+        "stop" : 1705495825831,
+        "duration" : 9889
+      }
+    }, {
+      "uid" : "7bccafb3f7186e25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493567185,
+        "stop" : 1705493576825,
+        "duration" : 9640
+      }
+    }, {
+      "uid" : "23574436309586f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493429201,
+        "stop" : 1705493439386,
+        "duration" : 10185
+      }
+    } ]
+  },
+  "2c5dc0cf99bfc246160d903fddbe4955" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d5cc069de4d0bec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705835152910,
+        "stop" : 1705835163747,
+        "duration" : 10837
+      }
+    }, {
+      "uid" : "940df47864cc03b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705500689412,
+        "stop" : 1705500700878,
+        "duration" : 11466
+      }
+    } ]
+  },
+  "44ed9b5f78cb3329e3b2ded07c6beb4b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "c228e1366e5b410d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705835122623,
+        "stop" : 1705835129590,
+        "duration" : 6967
+      }
+    }, {
+      "uid" : "f42b5f45f733fc80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705500654844,
+        "stop" : 1705500664016,
+        "duration" : 9172
+      }
+    }, {
+      "uid" : "5f370aa8d8dfb3e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705495807401,
+        "stop" : 1705495815118,
+        "duration" : 7717
+      }
+    }, {
+      "uid" : "a7f11abe0ca2e035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493559510,
+        "stop" : 1705493566356,
+        "duration" : 6846
+      }
+    }, {
+      "uid" : "394c2a9737ff71b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705493419653,
+        "stop" : 1705493428373,
+        "duration" : 8720
+      }
+    }, {
+      "uid" : "c1916113527e04c8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705493072022,
+        "stop" : 1705493078147,
+        "duration" : 6125
       }
     } ]
   }
