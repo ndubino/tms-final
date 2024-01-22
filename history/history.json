@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "77051e1e0be19701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906845825,
+        "stop" : 1705906849069,
+        "duration" : 3244
+      }
+    }, {
       "uid" : "6cc1826235fb795",
       "status" : "passed",
       "time" : {
@@ -85,13 +93,22 @@
   "42b4a115007c35c622675a0baedb491a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "7230cec584108636",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1705906806781,
+        "stop" : 1705906829652,
+        "duration" : 22871
+      }
+    }, {
       "uid" : "c75449beae0b9651",
       "status" : "passed",
       "time" : {
@@ -240,11 +257,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c932f0c31635f31f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906765449,
+        "stop" : 1705906779249,
+        "duration" : 13800
+      }
+    }, {
       "uid" : "a25f48d260d3e13d",
       "status" : "passed",
       "time" : {
@@ -259,11 +284,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 8
+      "total" : 9
     },
     "items" : [ {
+      "uid" : "bfc735e154d88fc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906741681,
+        "stop" : 1705906751620,
+        "duration" : 9939
+      }
+    }, {
       "uid" : "6f1caa17e3513996",
       "status" : "passed",
       "time" : {
@@ -334,11 +367,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d5062374c88cb90c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906752415,
+        "stop" : 1705906764651,
+        "duration" : 12236
+      }
+    }, {
       "uid" : "83ce16b11e7bbf93",
       "status" : "passed",
       "time" : {
@@ -353,11 +394,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "5844f7920eb8b44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906830449,
+        "stop" : 1705906840660,
+        "duration" : 10211
+      }
+    }, {
       "uid" : "21b7cd1f7054024e",
       "status" : "passed",
       "time" : {
@@ -402,13 +451,22 @@
   "44ed9b5f78cb3329e3b2ded07c6beb4b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "2b292f590e112f82",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705906734457,
+        "stop" : 1705906740802,
+        "duration" : 6345
+      }
+    }, {
       "uid" : "cf4e0a9ea6031446",
       "status" : "passed",
       "time" : {
@@ -490,11 +548,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "b87cc3688d5a32f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906841451,
+        "stop" : 1705906845037,
+        "duration" : 3586
+      }
+    }, {
       "uid" : "8f624deef45355f3",
       "status" : "passed",
       "time" : {
@@ -517,6 +583,44 @@
         "start" : 1705860301878,
         "stop" : 1705860307173,
         "duration" : 5295
+      }
+    } ]
+  },
+  "f8c80e6140ec692daab9ee19cc450bfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f1a00ee708a1a27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906792661,
+        "stop" : 1705906805985,
+        "duration" : 13324
+      }
+    } ]
+  },
+  "3a26726aff63f63c7d927445d6b66785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee16e167f9b75bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906780043,
+        "stop" : 1705906791867,
+        "duration" : 11824
       }
     } ]
   }

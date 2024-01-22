@@ -1,12 +1,12 @@
 {
-  "uid" : "6cc1826235fb795",
-  "name" : "Login to the system with invalid credentials",
-  "fullName" : "tests.login_test.TestLogin#test_delete_a_post",
-  "historyId" : "2b2b668e80208adab75caa95a29d144b",
+  "uid" : "b87cc3688d5a32f5",
+  "name" : "Login to the system successfully",
+  "fullName" : "tests.login_test.TestLogin#test_make_a_post",
+  "historyId" : "92756a0e921d3b4f1dfafa57a8daf36d",
   "time" : {
-    "start" : 1705875182393,
-    "stop" : 1705875186490,
-    "duration" : 4097
+    "start" : 1705906841451,
+    "stop" : 1705906845037,
+    "duration" : 3586
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1705875182393,
-      "stop" : 1705875182393,
+      "start" : 1705906841451,
+      "stop" : 1705906841451,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1705875181649,
-      "stop" : 1705875182392,
-      "duration" : 743
+      "start" : 1705906840719,
+      "stop" : 1705906841451,
+      "duration" : 732
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1705875182393,
-        "stop" : 1705875184527,
-        "duration" : 2134
+        "start" : 1705906841451,
+        "stop" : 1705906842835,
+        "duration" : 1384
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,16 +62,16 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1705875184527,
-        "stop" : 1705875185585,
-        "duration" : 1058
+        "start" : 1705906842835,
+        "stop" : 1705906843890,
+        "duration" : 1055
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "login",
-        "value" : "'invalid'"
+        "value" : "'admin'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -80,16 +80,16 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1705875185586,
-        "stop" : 1705875185655,
-        "duration" : 69
+        "start" : 1705906843890,
+        "stop" : 1705906843954,
+        "duration" : 64
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "password",
-        "value" : "'invalid'"
+        "value" : "'admin123'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1705875185655,
-        "stop" : 1705875185698,
-        "duration" : 43
+        "start" : 1705906843954,
+        "stop" : 1705906843999,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -111,11 +111,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/auth/login is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1705875185698,
-        "stop" : 1705875186354,
-        "duration" : 656
+        "start" : 1705906843999,
+        "stop" : 1705906844905,
+        "duration" : 906
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,9 +127,9 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "7fb117cb36bf9423",
+      "uid" : "d432f84c3ee8a42b",
       "name" : "Success",
-      "source" : "7fb117cb36bf9423.png",
+      "source" : "d432f84c3ee8a42b.png",
       "type" : "image/png",
       "size" : 10595
     } ],
@@ -142,8 +142,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705875186490,
-      "stop" : 1705875186547,
+      "start" : 1705906845037,
+      "stop" : 1705906845094,
       "duration" : 57
     },
     "status" : "passed",
@@ -156,11 +156,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Login Functionality"
-  }, {
     "name" : "severity",
     "value" : "Normal"
+  }, {
+    "name" : "feature",
+    "value" : "Login Functionality"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -175,7 +175,7 @@
     "value" : "TestLogin"
   }, {
     "name" : "host",
-    "value" : "cbc0f1f27832"
+    "value" : "8e438e4c6045"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -205,30 +205,38 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
-        "uid" : "75826dcf352c7c19",
+        "uid" : "8f624deef45355f3",
         "status" : "passed",
         "time" : {
-          "start" : 1705860913685,
-          "stop" : 1705860918104,
-          "duration" : 4419
+          "start" : 1705875177340,
+          "stop" : 1705875181591,
+          "duration" : 4251
         }
       }, {
-        "uid" : "381630ef348e8308",
+        "uid" : "d96307c668021f0",
         "status" : "passed",
         "time" : {
-          "start" : 1705860307969,
-          "stop" : 1705860313256,
-          "duration" : 5287
+          "start" : 1705860907298,
+          "stop" : 1705860912889,
+          "duration" : 5591
+        }
+      }, {
+        "uid" : "9be0e7162f820999",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860301878,
+          "stop" : 1705860307173,
+          "duration" : 5295
         }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "6cc1826235fb795.json",
+  "source" : "b87cc3688d5a32f5.json",
   "parameterValues" : [ ]
 }

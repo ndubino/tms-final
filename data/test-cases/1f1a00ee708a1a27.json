@@ -1,22 +1,22 @@
 {
-  "uid" : "a25f48d260d3e13d",
-  "name" : "Delete a dependent",
-  "fullName" : "tests.feature_dependents_test.TestDependentsFeature#test_delete_a_dependent",
-  "historyId" : "303671eeabbcd67c75e48642e55c595b",
+  "uid" : "1f1a00ee708a1a27",
+  "name" : "Delete membership",
+  "fullName" : "tests.feature_membership_test.TestMembershipsFeature#test_delete_membership",
+  "historyId" : "f8c80e6140ec692daab9ee19cc450bfa",
   "time" : {
-    "start" : 1705875141653,
-    "stop" : 1705875154186,
-    "duration" : 12533
+    "start" : 1705906792661,
+    "stop" : 1705906805985,
+    "duration" : 13324
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1705875140911,
-      "stop" : 1705875141653,
-      "duration" : 742
+      "start" : 1705906792660,
+      "stop" : 1705906792660,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1705875141653,
-      "stop" : 1705875141653,
-      "duration" : 0
+      "start" : 1705906791926,
+      "stop" : 1705906792660,
+      "duration" : 734
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1705875141653,
-        "stop" : 1705875143618,
-        "duration" : 1965
+        "start" : 1705906792661,
+        "stop" : 1705906794023,
+        "duration" : 1362
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1705875143618,
-        "stop" : 1705875144674,
-        "duration" : 1056
+        "start" : 1705906794023,
+        "stop" : 1705906795076,
+        "duration" : 1053
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1705875144674,
-        "stop" : 1705875144738,
-        "duration" : 64
+        "start" : 1705906795076,
+        "stop" : 1705906795137,
+        "duration" : 61
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1705875144738,
-        "stop" : 1705875144789,
-        "duration" : 51
+        "start" : 1705906795137,
+        "stop" : 1705906795187,
+        "duration" : 50
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1705875144789,
-        "stop" : 1705875145765,
-        "duration" : 976
+        "start" : 1705906795187,
+        "stop" : 1705906796081,
+        "duration" : 894
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,11 +126,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Click on 'Dependents' link",
+      "name" : "Click on 'Membership' link",
       "time" : {
-        "start" : 1705875145766,
-        "stop" : 1705875148861,
-        "duration" : 3095
+        "start" : 1705906796081,
+        "stop" : 1705906799817,
+        "duration" : 3736
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,11 +141,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7 is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7 is opened",
       "time" : {
-        "start" : 1705875148861,
-        "stop" : 1705875148864,
-        "duration" : 3
+        "start" : 1705906799817,
+        "stop" : 1705906799819,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,26 +156,41 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Delete dependent",
+      "name" : "Delete membership",
       "time" : {
-        "start" : 1705875148864,
-        "stop" : 1705875150976,
-        "duration" : 2112
+        "start" : 1705906799819,
+        "stop" : 1705906801932,
+        "duration" : 2113
       },
       "status" : "passed",
-      "steps" : [ ],
+      "steps" : [ {
+        "name" : "Delete membership",
+        "time" : {
+          "start" : 1705906799819,
+          "stop" : 1705906801932,
+          "duration" : 2113
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : false
+      "stepsCount" : 1,
+      "hasContent" : true
     }, {
-      "name" : "Dependent has been added successfully",
+      "name" : "Membership has been added successfully",
       "time" : {
-        "start" : 1705875150976,
-        "stop" : 1705875154022,
-        "duration" : 3046
+        "start" : 1705906801932,
+        "stop" : 1705906805985,
+        "duration" : 4053
       },
       "status" : "passed",
       "steps" : [ ],
@@ -186,25 +201,19 @@
       "stepsCount" : 0,
       "hasContent" : false
     } ],
-    "attachments" : [ {
-      "uid" : "2fed94e180db39f",
-      "name" : "Success",
-      "source" : "2fed94e180db39f.png",
-      "type" : "image/png",
-      "size" : 156676
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 9,
+    "stepsCount" : 10,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705875154186,
-      "stop" : 1705875154244,
-      "duration" : 58
+      "start" : 1705906805986,
+      "stop" : 1705906806043,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -217,7 +226,10 @@
   } ],
   "labels" : [ {
     "name" : "severity",
-    "value" : "Normal"
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Membership Functionality"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -226,13 +238,13 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "feature_dependents_test"
+    "value" : "feature_membership_test"
   }, {
     "name" : "subSuite",
-    "value" : "TestDependentsFeature"
+    "value" : "TestMembershipsFeature"
   }, {
     "name" : "host",
-    "value" : "cbc0f1f27832"
+    "value" : "8e438e4c6045"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -244,7 +256,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.feature_dependents_test"
+    "value" : "tests.feature_membership_test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -254,11 +266,11 @@
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ "smoke" ]
   },
-  "source" : "a25f48d260d3e13d.json",
+  "source" : "1f1a00ee708a1a27.json",
   "parameterValues" : [ ]
 }
