@@ -12,19 +12,19 @@
       "total" : 2
     }
   }, {
-    "uid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
-    "name" : "Profile Functionality",
+    "uid" : "6f7712ddf8cbeec2184c3f4635c7e8b1",
+    "name" : "Membership Functionality",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
     }
   }, {
-    "uid" : "6f7712ddf8cbeec2184c3f4635c7e8b1",
-    "name" : "Membership Functionality",
+    "uid" : "bfe6fb5a25b9d3632e34c1e8a59f2830",
+    "name" : "Profile Functionality",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

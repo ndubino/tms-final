@@ -1,22 +1,22 @@
 {
-  "uid" : "bfc735e154d88fc6",
+  "uid" : "5b8b7b4ac8c66a6d",
   "name" : "Delete a buzz",
   "fullName" : "tests.feature_buzz_test.TestNewsfeedFeature#test_delete_a_post",
   "historyId" : "9ce36c69e1fa62f120b613a7461e196c",
   "time" : {
-    "start" : 1705906741681,
-    "stop" : 1705906751620,
-    "duration" : 9939
+    "start" : 1705907071994,
+    "stop" : 1705907080463,
+    "duration" : 8469
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1705906741681,
-      "stop" : 1705906741681,
-      "duration" : 0
+      "start" : 1705907071262,
+      "stop" : 1705907071993,
+      "duration" : 731
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1705906740948,
-      "stop" : 1705906741681,
-      "duration" : 733
+      "start" : 1705907071994,
+      "stop" : 1705907071994,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1705906741681,
-        "stop" : 1705906743069,
-        "duration" : 1388
+        "start" : 1705907071994,
+        "stop" : 1705907073362,
+        "duration" : 1368
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,8 +62,8 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1705906743069,
-        "stop" : 1705906744123,
+        "start" : 1705907073362,
+        "stop" : 1705907074416,
         "duration" : 1054
       },
       "status" : "passed",
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1705906744124,
-        "stop" : 1705906744185,
-        "duration" : 61
+        "start" : 1705907074416,
+        "stop" : 1705907074485,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1705906744185,
-        "stop" : 1705906744234,
-        "duration" : 49
+        "start" : 1705907074485,
+        "stop" : 1705907074526,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1705906744234,
-        "stop" : 1705906745329,
-        "duration" : 1095
+        "start" : 1705907074526,
+        "stop" : 1705907075444,
+        "duration" : 918
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,9 +128,9 @@
     }, {
       "name" : "Click on 'Buzz' link",
       "time" : {
-        "start" : 1705906745329,
-        "stop" : 1705906747248,
-        "duration" : 1919
+        "start" : 1705907075445,
+        "stop" : 1705907077107,
+        "duration" : 1662
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz is opened",
       "time" : {
-        "start" : 1705906747248,
-        "stop" : 1705906747251,
-        "duration" : 3
+        "start" : 1705907077107,
+        "stop" : 1705907077109,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -158,9 +158,9 @@
     }, {
       "name" : "Delete buzz",
       "time" : {
-        "start" : 1705906747251,
-        "stop" : 1705906751422,
-        "duration" : 4171
+        "start" : 1705907077109,
+        "stop" : 1705907080280,
+        "duration" : 3171
       },
       "status" : "passed",
       "steps" : [ ],
@@ -173,8 +173,8 @@
     }, {
       "name" : "Buzz has been deleted successfully",
       "time" : {
-        "start" : 1705906751422,
-        "stop" : 1705906751431,
+        "start" : 1705907080280,
+        "stop" : 1705907080289,
         "duration" : 9
       },
       "status" : "passed",
@@ -187,11 +187,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "9070719b5d6cad",
+      "uid" : "5d344abb4f3eb70b",
       "name" : "Success",
-      "source" : "9070719b5d6cad.png",
+      "source" : "5d344abb4f3eb70b.png",
       "type" : "image/png",
-      "size" : 385633
+      "size" : 229159
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -202,8 +202,8 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705906751620,
-      "stop" : 1705906751678,
+      "start" : 1705907080463,
+      "stop" : 1705907080521,
       "duration" : 58
     },
     "status" : "passed",
@@ -216,11 +216,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "severity",
-    "value" : "Normal"
-  }, {
     "name" : "feature",
     "value" : "Buzz Functionality"
+  }, {
+    "name" : "severity",
+    "value" : "Normal"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -235,7 +235,7 @@
     "value" : "TestNewsfeedFeature"
   }, {
     "name" : "host",
-    "value" : "8e438e4c6045"
+    "value" : "75d710deabf1"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -265,11 +265,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 9,
+        "passed" : 10,
         "unknown" : 0,
-        "total" : 9
+        "total" : 10
       },
       "items" : [ {
+        "uid" : "bfc735e154d88fc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705906741681,
+          "stop" : 1705906751620,
+          "duration" : 9939
+        }
+      }, {
         "uid" : "6f1caa17e3513996",
         "status" : "passed",
         "time" : {
@@ -337,6 +345,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "bfc735e154d88fc6.json",
+  "source" : "5b8b7b4ac8c66a6d.json",
   "parameterValues" : [ ]
 }

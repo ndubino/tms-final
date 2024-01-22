@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "b89085cd5c9a7349",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907161865,
+        "stop" : 1705907165336,
+        "duration" : 3471
+      }
+    }, {
       "uid" : "77051e1e0be19701",
       "status" : "passed",
       "time" : {
@@ -62,44 +70,24 @@
       }
     } ]
   },
-  "7f25ffea984cc43d816cfdfdb2b65ec1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "cb7a946c30886e37",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705438802694,
-        "stop" : 1705438808880,
-        "duration" : 6186
-      }
-    }, {
-      "uid" : "319d12a36e702768",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/lib/chromium/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
-      "time" : {
-        "start" : 1705438609529,
-        "stop" : 1705438609529,
-        "duration" : 0
-      }
-    } ]
-  },
   "42b4a115007c35c622675a0baedb491a" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "4c6d2c796615172f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907136223,
+        "stop" : 1705907146048,
+        "duration" : 9825
+      }
+    }, {
       "uid" : "7230cec584108636",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
@@ -257,11 +245,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "5392afd86b75916c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907094913,
+        "stop" : 1705907108096,
+        "duration" : 13183
+      }
+    }, {
       "uid" : "c932f0c31635f31f",
       "status" : "passed",
       "time" : {
@@ -279,16 +275,165 @@
       }
     } ]
   },
+  "0c952981b11f290eb4e22579cd8c9136" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "9c819c666766146c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907081258,
+        "stop" : 1705907094115,
+        "duration" : 12857
+      }
+    }, {
+      "uid" : "d5062374c88cb90c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906752415,
+        "stop" : 1705906764651,
+        "duration" : 12236
+      }
+    }, {
+      "uid" : "83ce16b11e7bbf93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705875127236,
+        "stop" : 1705875140851,
+        "duration" : 13615
+      }
+    } ]
+  },
+  "92756a0e921d3b4f1dfafa57a8daf36d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "55766cf982aee467",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907157389,
+        "stop" : 1705907161069,
+        "duration" : 3680
+      }
+    }, {
+      "uid" : "b87cc3688d5a32f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906841451,
+        "stop" : 1705906845037,
+        "duration" : 3586
+      }
+    }, {
+      "uid" : "8f624deef45355f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705875177340,
+        "stop" : 1705875181591,
+        "duration" : 4251
+      }
+    }, {
+      "uid" : "d96307c668021f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860907298,
+        "stop" : 1705860912889,
+        "duration" : 5591
+      }
+    }, {
+      "uid" : "9be0e7162f820999",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705860301878,
+        "stop" : 1705860307173,
+        "duration" : 5295
+      }
+    } ]
+  },
+  "3a26726aff63f63c7d927445d6b66785" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d236e61f8c9921ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907108892,
+        "stop" : 1705907122549,
+        "duration" : 13657
+      }
+    }, {
+      "uid" : "ee16e167f9b75bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705906780043,
+        "stop" : 1705906791867,
+        "duration" : 11824
+      }
+    } ]
+  },
+  "7f25ffea984cc43d816cfdfdb2b65ec1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cb7a946c30886e37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705438802694,
+        "stop" : 1705438808880,
+        "duration" : 6186
+      }
+    }, {
+      "uid" : "319d12a36e702768",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/lib/chromium/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1705438609529,
+        "stop" : 1705438609529,
+        "duration" : 0
+      }
+    } ]
+  },
   "9ce36c69e1fa62f120b613a7461e196c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "5b8b7b4ac8c66a6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907071994,
+        "stop" : 1705907080463,
+        "duration" : 8469
+      }
+    }, {
       "uid" : "bfc735e154d88fc6",
       "status" : "passed",
       "time" : {
@@ -362,43 +507,24 @@
       }
     } ]
   },
-  "0c952981b11f290eb4e22579cd8c9136" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "d5062374c88cb90c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705906752415,
-        "stop" : 1705906764651,
-        "duration" : 12236
-      }
-    }, {
-      "uid" : "83ce16b11e7bbf93",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705875127236,
-        "stop" : 1705875140851,
-        "duration" : 13615
-      }
-    } ]
-  },
   "2c5dc0cf99bfc246160d903fddbe4955" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "20a5365419812d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907146842,
+        "stop" : 1705907156581,
+        "duration" : 9739
+      }
+    }, {
       "uid" : "5844f7920eb8b44e",
       "status" : "passed",
       "time" : {
@@ -451,13 +577,22 @@
   "44ed9b5f78cb3329e3b2ded07c6beb4b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "6136b91649360b98",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
+      "time" : {
+        "start" : 1705907064834,
+        "stop" : 1705907071125,
+        "duration" : 6291
+      }
+    }, {
       "uid" : "2b292f590e112f82",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: headless chrome=112.0.5615.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception",
@@ -543,84 +678,30 @@
       }
     } ]
   },
-  "92756a0e921d3b4f1dfafa57a8daf36d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
-    },
-    "items" : [ {
-      "uid" : "b87cc3688d5a32f5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705906841451,
-        "stop" : 1705906845037,
-        "duration" : 3586
-      }
-    }, {
-      "uid" : "8f624deef45355f3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705875177340,
-        "stop" : 1705875181591,
-        "duration" : 4251
-      }
-    }, {
-      "uid" : "d96307c668021f0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705860907298,
-        "stop" : 1705860912889,
-        "duration" : 5591
-      }
-    }, {
-      "uid" : "9be0e7162f820999",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705860301878,
-        "stop" : 1705860307173,
-        "duration" : 5295
-      }
-    } ]
-  },
   "f8c80e6140ec692daab9ee19cc450bfa" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4262745d6120fa25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1705907123344,
+        "stop" : 1705907135425,
+        "duration" : 12081
+      }
+    }, {
       "uid" : "1f1a00ee708a1a27",
       "status" : "passed",
       "time" : {
         "start" : 1705906792661,
         "stop" : 1705906805985,
         "duration" : 13324
-      }
-    } ]
-  },
-  "3a26726aff63f63c7d927445d6b66785" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ee16e167f9b75bd0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1705906780043,
-        "stop" : 1705906791867,
-        "duration" : 11824
       }
     } ]
   }
