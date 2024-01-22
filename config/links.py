@@ -5,3 +5,4 @@ class Links:
     PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
     BUZZ_PAGE = f"{HOST}/buzz/viewBuzz"
     DEPENDENTS_PAGE = f"{HOST}/pim/viewDependents/empNumber/7"
+    MEMBERSHIP_PAGE = f"{HOST}/pim/viewMemberships/empNumber/7"

@@ -13,6 +13,7 @@ class DashboardPage(BasePage):
     MY_INFO_BUTTON = ("xpath", "//span[text()='My Info']")
     BUZZ_BUTTON = ("xpath", "//span[text()='Buzz']")
     DEPENDENTS_BUTTON = ("xpath", "//a[text()='Dependents']")
+    MEMBERSHIP_BUTTON = ("xpath", "//a[text()='Memberships']")
 
     @allure.step("Click on 'My Info' link")
     def click_my_info_link(self):
@@ -26,3 +27,8 @@ class DashboardPage(BasePage):
     def click_dependents_link(self):
         self.wait.until(EC.element_to_be_clickable(self.MY_INFO_BUTTON)).click()
         self.wait.until(EC.element_to_be_clickable(self.DEPENDENTS_BUTTON)).click()
+
+    @allure.step("Click on 'Membership' link")
+    def click_membership_link(self):
+        self.wait.until(EC.element_to_be_clickable(self.MY_INFO_BUTTON)).click()
+        self.wait.until(EC.element_to_be_clickable(self.MEMBERSHIP_BUTTON)).click()

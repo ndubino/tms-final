@@ -5,6 +5,7 @@ from pages.dashboard_page import DashboardPage
 from pages.personal_page import PersonalPage
 from pages.buzz_page import BuzzPage
 from pages.dependents_page import DependentsPage
+from pages.membership_page import MembershipsPage
 
 
 class BaseTest:
@@ -16,6 +17,7 @@ class BaseTest:
     personal_page: PersonalPage
     buzz_page: BuzzPage
     dependents_page: DependentsPage
+    membership_page: MembershipsPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -27,3 +29,4 @@ class BaseTest:
         request.cls.personal_page = PersonalPage(driver)
         request.cls.buzz_page = BuzzPage(driver)
         request.cls.dependents_page = DependentsPage(driver)
+        request.cls.membership_page = MembershipsPage(driver)
