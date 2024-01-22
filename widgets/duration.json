@@ -1,101 +1,101 @@
 [ {
-  "uid" : "4262745d6120fa25",
-  "name" : "Delete membership",
-  "time" : {
-    "start" : 1705907123344,
-    "stop" : 1705907135425,
-    "duration" : 12081
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d236e61f8c9921ed",
-  "name" : "Add membership",
-  "time" : {
-    "start" : 1705907108892,
-    "stop" : 1705907122549,
-    "duration" : 13657
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "20a5365419812d",
-  "name" : "Change profile last name",
-  "time" : {
-    "start" : 1705907146842,
-    "stop" : 1705907156581,
-    "duration" : 9739
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5392afd86b75916c",
-  "name" : "Delete a dependent",
-  "time" : {
-    "start" : 1705907094913,
-    "stop" : 1705907108096,
-    "duration" : 13183
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "55766cf982aee467",
+  "uid" : "94d6d2dfc2317288",
   "name" : "Login to the system successfully",
   "time" : {
-    "start" : 1705907157389,
-    "stop" : 1705907161069,
-    "duration" : 3680
+    "start" : 1705907532148,
+    "stop" : 1705907536154,
+    "duration" : 4006
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b89085cd5c9a7349",
+  "uid" : "13f7c15c166b24f4",
   "name" : "Login to the system with invalid credentials",
   "time" : {
-    "start" : 1705907161865,
-    "stop" : 1705907165336,
-    "duration" : 3471
+    "start" : 1705907536948,
+    "stop" : 1705907540170,
+    "duration" : 3222
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9c819c666766146c",
-  "name" : "Add a dependent",
+  "uid" : "577aa94ac78772c7",
+  "name" : "Delete membership",
   "time" : {
-    "start" : 1705907081258,
-    "stop" : 1705907094115,
-    "duration" : 12857
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c6d2c796615172f",
-  "name" : "Change profile name",
-  "time" : {
-    "start" : 1705907136223,
-    "stop" : 1705907146048,
-    "duration" : 9825
+    "start" : 1705907495487,
+    "stop" : 1705907508157,
+    "duration" : 12670
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "5b8b7b4ac8c66a6d",
+  "uid" : "7e3cd25052a25f7c",
+  "name" : "Add membership",
+  "time" : {
+    "start" : 1705907481500,
+    "stop" : 1705907494691,
+    "duration" : 13191
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fbdca19c16c97a92",
   "name" : "Delete a buzz",
   "time" : {
-    "start" : 1705907071994,
-    "stop" : 1705907080463,
-    "duration" : 8469
+    "start" : 1705907443291,
+    "stop" : 1705907452692,
+    "duration" : 9401
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6136b91649360b98",
+  "uid" : "e9d588d7c2855c99",
   "name" : "Post a buzz",
   "time" : {
-    "start" : 1705907064834,
-    "stop" : 1705907071125,
-    "duration" : 6291
+    "start" : 1705907434226,
+    "stop" : 1705907442464,
+    "duration" : 8238
   },
-  "status" : "broken",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d02084dacdf50570",
+  "name" : "Change profile name",
+  "time" : {
+    "start" : 1705907508956,
+    "stop" : 1705907519401,
+    "duration" : 10445
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dde8ddd3ea2b4767",
+  "name" : "Change profile last name",
+  "time" : {
+    "start" : 1705907520199,
+    "stop" : 1705907531351,
+    "duration" : 11152
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d2f040e26262155f",
+  "name" : "Delete a dependent",
+  "time" : {
+    "start" : 1705907467260,
+    "stop" : 1705907480701,
+    "duration" : 13441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ba0bc69b00f8efb",
+  "name" : "Add a dependent",
+  "time" : {
+    "start" : 1705907453493,
+    "stop" : 1705907466466,
+    "duration" : 12973
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

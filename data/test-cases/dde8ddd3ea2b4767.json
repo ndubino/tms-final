@@ -1,22 +1,22 @@
 {
-  "uid" : "d236e61f8c9921ed",
-  "name" : "Add membership",
-  "fullName" : "tests.feature_membership_test.TestMembershipsFeature#test_add_membership",
-  "historyId" : "3a26726aff63f63c7d927445d6b66785",
+  "uid" : "dde8ddd3ea2b4767",
+  "name" : "Change profile last name",
+  "fullName" : "tests.feature_profile_test.TestProfileFeature#test_change_profile_last_name",
+  "historyId" : "2c5dc0cf99bfc246160d903fddbe4955",
   "time" : {
-    "start" : 1705907108892,
-    "stop" : 1705907122549,
-    "duration" : 13657
+    "start" : 1705907520199,
+    "stop" : 1705907531351,
+    "duration" : 11152
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1705907108891,
-      "stop" : 1705907108891,
-      "duration" : 0
+      "start" : 1705907519460,
+      "stop" : 1705907520198,
+      "duration" : 738
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1705907108156,
-      "stop" : 1705907108891,
-      "duration" : 735
+      "start" : 1705907520198,
+      "stop" : 1705907520199,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1705907108892,
-        "stop" : 1705907110601,
-        "duration" : 1709
+        "start" : 1705907520199,
+        "stop" : 1705907521567,
+        "duration" : 1368
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1705907110601,
-        "stop" : 1705907111654,
-        "duration" : 1053
+        "start" : 1705907521567,
+        "stop" : 1705907522622,
+        "duration" : 1055
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1705907111654,
-        "stop" : 1705907111715,
-        "duration" : 61
+        "start" : 1705907522622,
+        "stop" : 1705907522690,
+        "duration" : 68
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1705907111715,
-        "stop" : 1705907111764,
-        "duration" : 49
+        "start" : 1705907522690,
+        "stop" : 1705907522733,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1705907111764,
-        "stop" : 1705907113607,
-        "duration" : 1843
+        "start" : 1705907522733,
+        "stop" : 1705907524061,
+        "duration" : 1328
       },
       "status" : "passed",
       "steps" : [ ],
@@ -126,11 +126,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Click on 'Membership' link",
+      "name" : "Click on 'My Info' link",
       "time" : {
-        "start" : 1705907113607,
-        "stop" : 1705907117957,
-        "duration" : 4350
+        "start" : 1705907524061,
+        "stop" : 1705907526811,
+        "duration" : 2750
       },
       "status" : "passed",
       "steps" : [ ],
@@ -141,11 +141,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7 is opened",
+      "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
       "time" : {
-        "start" : 1705907117957,
-        "stop" : 1705907117959,
-        "duration" : 2
+        "start" : 1705907526811,
+        "stop" : 1705907526814,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,11 +156,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Click on 'Add' button",
+      "name" : "Change last name on 'Test 1'",
       "time" : {
-        "start" : 1705907117959,
-        "stop" : 1705907119024,
-        "duration" : 1065
+        "start" : 1705907526814,
+        "stop" : 1705907527902,
+        "duration" : 1088
       },
       "status" : "passed",
       "steps" : [ ],
@@ -171,101 +171,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Set membership",
+      "name" : "Save changes",
       "time" : {
-        "start" : 1705907119024,
-        "stop" : 1705907119115,
-        "duration" : 91
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "membership",
-        "value" : "'ACCA'"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Set subscription paid by",
-      "time" : {
-        "start" : 1705907119115,
-        "stop" : 1705907119201,
-        "duration" : 86
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "subscription_paid_by",
-        "value" : "'Company'"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Set subscription amount",
-      "time" : {
-        "start" : 1705907119201,
-        "stop" : 1705907119263,
-        "duration" : 62
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "subscription_amount",
-        "value" : "'1000'"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Set subscription currency",
-      "time" : {
-        "start" : 1705907119263,
-        "stop" : 1705907119383,
-        "duration" : 120
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "subscription_currency",
-        "value" : "'Fiji Dollar'"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Set subscription commence date",
-      "time" : {
-        "start" : 1705907119383,
-        "stop" : 1705907119454,
-        "duration" : 71
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "subscription_commence_date",
-        "value" : "'2024-01-22'"
-      } ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 0,
-      "hasContent" : true
-    }, {
-      "name" : "Click on 'Save' button",
-      "time" : {
-        "start" : 1705907119454,
-        "stop" : 1705907119504,
-        "duration" : 50
+        "start" : 1705907527902,
+        "stop" : 1705907528117,
+        "duration" : 215
       },
       "status" : "passed",
       "steps" : [ ],
@@ -276,11 +186,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Membership has been added successfully",
+      "name" : "Changes has been saved successfully",
       "time" : {
-        "start" : 1705907119504,
-        "stop" : 1705907122549,
-        "duration" : 3045
+        "start" : 1705907528117,
+        "stop" : 1705907531184,
+        "duration" : 3067
       },
       "status" : "passed",
       "steps" : [ ],
@@ -291,18 +201,24 @@
       "stepsCount" : 0,
       "hasContent" : false
     } ],
-    "attachments" : [ ],
+    "attachments" : [ {
+      "uid" : "1b30870b1a27c6f0",
+      "name" : "Success",
+      "source" : "1b30870b1a27c6f0.png",
+      "type" : "image/png",
+      "size" : 170799
+    } ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 15,
+    "stepsCount" : 10,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1705907122550,
-      "stop" : 1705907122607,
+      "start" : 1705907531351,
+      "stop" : 1705907531408,
       "duration" : 57
     },
     "status" : "passed",
@@ -315,11 +231,11 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Membership Functionality"
-  }, {
     "name" : "severity",
     "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Profile Functionality"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -328,13 +244,13 @@
     "value" : "tests"
   }, {
     "name" : "suite",
-    "value" : "feature_membership_test"
+    "value" : "feature_profile_test"
   }, {
     "name" : "subSuite",
-    "value" : "TestMembershipsFeature"
+    "value" : "TestProfileFeature"
   }, {
     "name" : "host",
-    "value" : "75d710deabf1"
+    "value" : "3f0ed3369fe5"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -346,7 +262,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "tests.feature_membership_test"
+    "value" : "tests.feature_profile_test"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -364,22 +280,70 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 2
+        "total" : 8
       },
       "items" : [ {
-        "uid" : "ee16e167f9b75bd0",
+        "uid" : "20a5365419812d",
         "status" : "passed",
         "time" : {
-          "start" : 1705906780043,
-          "stop" : 1705906791867,
-          "duration" : 11824
+          "start" : 1705907146842,
+          "stop" : 1705907156581,
+          "duration" : 9739
+        }
+      }, {
+        "uid" : "5844f7920eb8b44e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705906830449,
+          "stop" : 1705906840660,
+          "duration" : 10211
+        }
+      }, {
+        "uid" : "21b7cd1f7054024e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705875166087,
+          "stop" : 1705875176535,
+          "duration" : 10448
+        }
+      }, {
+        "uid" : "f870a43e00fd36ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860895265,
+          "stop" : 1705860906500,
+          "duration" : 11235
+        }
+      }, {
+        "uid" : "24c1f937b69b1f6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705860290230,
+          "stop" : 1705860301083,
+          "duration" : 10853
+        }
+      }, {
+        "uid" : "d5cc069de4d0bec7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705835152910,
+          "stop" : 1705835163747,
+          "duration" : 10837
+        }
+      }, {
+        "uid" : "940df47864cc03b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1705500689412,
+          "stop" : 1705500700878,
+          "duration" : 11466
         }
       } ]
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "d236e61f8c9921ed.json",
+  "source" : "dde8ddd3ea2b4767.json",
   "parameterValues" : [ ]
 }
